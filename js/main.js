@@ -187,6 +187,7 @@ createRestaurantHTML = (restaurant) => {
   footerDiv.className = 'card-footer';
   const more = document.createElement('a');
   more.innerHTML = 'View Details';
+  more.className = 'custom-btn';
   more.href = DBHelper.urlForRestaurant(restaurant);
   footerDiv.append(more);
   div.append(footerDiv);
