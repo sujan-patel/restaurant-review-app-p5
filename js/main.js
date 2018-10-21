@@ -184,7 +184,7 @@ createRestaurantHTML = (restaurant) => {
   titleDiv.append(address);
 
   const footerDiv = document.createElement('div');
-  footerDiv.className = 'card-footer';
+  // footerDiv.className = 'card-footer';
   const more = document.createElement('a');
   more.innerHTML = 'View Details';
   more.className = 'custom-btn';
